@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1410"/>
+      <stop offset="100%" style="stop-color:#2D2218"/>
+    </linearGradient>
+    <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C9A96E"/>
+      <stop offset="100%" style="stop-color:#8B6B3D"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5DEB3"/>
+      <stop offset="100%" style="stop-color:#D4A574"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F4EE"/>
+      <stop offset="100%" style="stop-color:#E8E0D0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#C9A96E;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#C9A96E;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="softer">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="oval">
+      <ellipse cx="400" cy="420" rx="220" ry="280"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bg)"/>
+
+  <!-- Glow behind figure -->
+  <ellipse cx="400" cy="400" rx="300" ry="350" fill="url(#glow)" filter="url(#softer)"/>
+
+  <!-- Decorative gold arcs -->
+  <circle cx="400" cy="420" r="290" fill="none" stroke="#C9A96E" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="400" cy="420" r="310" fill="none" stroke="#C9A96E" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="400" cy="420" r="260" fill="none" stroke="#C9A96E" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Gold corner ornaments -->
+  <path d="M 40 40 L 120 40 M 40 40 L 40 120" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 760 40 L 680 40 M 760 40 L 760 120" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 40 960 L 120 960 M 40 960 L 40 880" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 760 960 L 680 960 M 760 960 L 760 880" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Small gold diamonds -->
+  <polygon points="400,110 408,120 400,130 392,120" fill="#C9A96E" opacity="0.5"/>
+  <polygon points="400,870 405,878 400,886 395,878" fill="#C9A96E" opacity="0.3"/>
+
+  <!-- Figure silhouette base (lab coat body) -->
+  <ellipse cx="400" cy="820" rx="200" ry="80" fill="#1A1410" opacity="0.5"/>
+
+  <!-- Lab coat -->
+  <path d="M 220 600 Q 200 700 190 900 L 610 900 Q 600 700 580 600 Q 520 560 490 540 L 400 560 L 310 540 Q 280 560 220 600 Z" fill="url(#coat)"/>
+
+  <!-- Lab coat lapels -->
+  <path d="M 400 560 L 370 620 L 340 580 L 310 540 Z" fill="#E0D8C8"/>
+  <path d="M 400 560 L 430 620 L 460 580 L 490 540 Z" fill="#E0D8C8"/>
+
+  <!-- Coat detail lines -->
+  <line x1="350" y1="640" x2="330" y2="850" stroke="#D0C8B8" stroke-width="1" opacity="0.5"/>
+  <line x1="450" y1="640" x2="470" y2="850" stroke="#D0C8B8" stroke-width="1" opacity="0.5"/>
+
+  <!-- Stethoscope -->
+  <path d="M 360 600 Q 340 650 360 680 Q 380 710 400 700 Q 420 710 440 680 Q 460 650 440 600" fill="none" stroke="#C9A96E" stroke-width="3" opacity="0.8"/>
+  <circle cx="400" cy="705" r="8" fill="#C9A96E" opacity="0.9"/>
+
+  <!-- Neck -->
+  <rect x="370" y="480" width="60" height="80" rx="30" fill="url(#skin)"/>
+
+  <!-- Head -->
+  <ellipse cx="400" cy="380" rx="120" ry="140" fill="url(#skin)"/>
+
+  <!-- Hair (elegant bun / professional) -->
+  <ellipse cx="400" cy="260" rx="120" ry="60" fill="#2C1810"/>
+  <ellipse cx="400" cy="250" rx="100" ry="50" fill="#3D2315"/>
+  <path d="M 280 320 Q 270 380 275 430" stroke="#2C1810" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <path d="M 520 320 Q 530 380 525 430" stroke="#2C1810" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <!-- Hair bun -->
+  <ellipse cx="400" cy="235" rx="55" ry="40" fill="#2C1810"/>
+  <ellipse cx="400" cy="232" rx="48" ry="34" fill="#3D2315"/>
+
+  <!-- Face features -->
+  <!-- Eyebrows -->
+  <path d="M 355 340 Q 375 332 390 338" stroke="#3D2315" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 410 338 Q 425 332 445 340" stroke="#3D2315" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="375" cy="360" rx="18" ry="12" fill="#1A0F0A"/>
+  <ellipse cx="425" cy="360" rx="18" ry="12" fill="#1A0F0A"/>
+  <ellipse cx="375" cy="360" rx="14" ry="9" fill="#2C1810"/>
+  <ellipse cx="425" cy="360" rx="14" ry="9" fill="#2C1810"/>
+  <circle cx="380" cy="357" r="3" fill="white" opacity="0.9"/>
+  <circle cx="430" cy="357" r="3" fill="white" opacity="0.9"/>
+
+  <!-- Nose -->
+  <path d="M 395 380 Q 390 405 395 415 Q 400 420 405 415 Q 410 405 405 380" fill="none" stroke="#C4956A" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Smile -->
+  <path d="M 370 435 Q 400 455 430 435" fill="none" stroke="#C4956A" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Teeth hint -->
+  <path d="M 378 440 Q 400 452 422 440 Q 400 448 378 440" fill="white" opacity="0.7"/>
+
+  <!-- Earrings (gold) -->
+  <circle cx="282" cy="390" r="6" fill="#C9A96E"/>
+  <circle cx="282" cy="400" r="4" fill="#C9A96E" opacity="0.7"/>
+  <circle cx="518" cy="390" r="6" fill="#C9A96E"/>
+  <circle cx="518" cy="400" r="4" fill="#C9A96E" opacity="0.7"/>
+
+  <!-- Clinic name subtle watermark at bottom -->
+  <text x="400" y="960" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#C9A96E" opacity="0.4" letter-spacing="6">UNIC CLINIC</text>
+
+  <!-- Bottom gradient fade -->
+  <defs>
+    <linearGradient id="fade-bottom" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1410;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#1A1410;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+  <rect y="700" width="800" height="300" fill="url(#fade-bottom)"/>
+</svg>

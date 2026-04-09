@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F0E8"/>
+      <stop offset="100%" style="stop-color:#E8E0D0"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5A3C"/>
+      <stop offset="100%" style="stop-color:#6B3A20"/>
+    </linearGradient>
+    <linearGradient id="tooth2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F0EDE8"/>
+    </linearGradient>
+    <linearGradient id="hair2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A0E06"/>
+      <stop offset="100%" style="stop-color:#0A0604"/>
+    </linearGradient>
+    <radialGradient id="shine2" cx="30%" cy="20%" r="60%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Light BG for contrast -->
+  <rect width="400" height="533" fill="url(#bg2)"/>
+  <!-- Subtle warm overlay -->
+  <rect width="400" height="533" fill="rgba(201,169,110,0.05)"/>
+
+  <!-- Gold corner marks -->
+  <path d="M 24 24 L 56 24 M 24 24 L 24 56" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 376 24 L 344 24 M 376 24 L 376 56" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 24 509 L 56 509 M 24 509 L 24 477" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 376 509 L 344 509 M 376 509 L 376 477" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Shoulders/body -->
+  <path d="M 30 533 Q 80 440 155 415 L 245 415 Q 320 440 370 533 Z" fill="#2A2218"/>
+
+  <!-- Neck -->
+  <rect x="172" y="350" width="56" height="75" rx="28" fill="url(#skin2)"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="248" rx="105" ry="120" fill="url(#skin2)"/>
+  <ellipse cx="200" cy="248" rx="105" ry="120" fill="url(#shine2)"/>
+
+  <!-- Hair top -->
+  <ellipse cx="200" cy="158" rx="107" ry="68" fill="url(#hair2)"/>
+  <!-- Hair sides -->
+  <path d="M 95 210 Q 86 270 90 340" stroke="#0A0604" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M 305 210 Q 314 270 310 340" stroke="#0A0604" stroke-width="30" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheek highlight -->
+  <ellipse cx="148" cy="278" rx="20" ry="14" fill="rgba(200,100,100,0.15)" filter="url(#soft1)"/>
+  <ellipse cx="252" cy="278" rx="20" ry="14" fill="rgba(200,100,100,0.15)" filter="url(#soft1)"/>
+
+  <!-- Eyes -->
+  <ellipse cx="168" cy="232" rx="20" ry="11" fill="#0A0604"/>
+  <ellipse cx="232" cy="232" rx="20" ry="11" fill="#0A0604"/>
+  <ellipse cx="168" cy="232" rx="14" ry="7.5" fill="#2A1A10"/>
+  <ellipse cx="232" cy="232" rx="14" ry="7.5" fill="#2A1A10"/>
+  <circle cx="174" cy="229" r="3" fill="white" opacity="0.9"/>
+  <circle cx="238" cy="229" r="3" fill="white" opacity="0.9"/>
+
+  <!-- Eyebrows (natural full brows) -->
+  <path d="M 146 216 Q 164 207 186 213" stroke="#1A0E06" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 214 213 Q 236 207 254 216" stroke="#1A0E06" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M 196 250 Q 190 270 195 280 Q 200 285 205 280 Q 210 270 204 250" fill="none" stroke="#5A3820" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Big bright smile - clareamento result -->
+  <path d="M 156 300 Q 200 322 244 300" fill="none" stroke="#5A3820" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Upper lip -->
+  <path d="M 156 300 Q 178 292 200 294 Q 222 292 244 300 Q 222 296 200 297 Q 178 296 156 300 Z" fill="#A06060"/>
+  <!-- Lower lip -->
+  <path d="M 156 300 Q 178 322 200 328 Q 222 322 244 300 Q 222 318 200 320 Q 178 318 156 300 Z" fill="#B86868"/>
+
+  <!-- Gleaming white teeth -->
+  <path d="M 164 302 Q 200 316 236 302 Q 200 310 164 302 Z" fill="url(#tooth2)"/>
+  <rect x="164" y="302" width="72" height="12" rx="2" fill="url(#tooth2)" opacity="0.9"/>
+  <!-- Shine on teeth -->
+  <path d="M 170 304 Q 200 308 230 304" stroke="white" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <!-- Tooth dividers -->
+  <line x1="200" y1="302" x2="200" y2="313" stroke="#E0E0DC" stroke-width="0.8" opacity="0.6"/>
+  <line x1="184" y1="303" x2="184" y2="313" stroke="#E0E0DC" stroke-width="0.8" opacity="0.4"/>
+  <line x1="216" y1="303" x2="216" y2="313" stroke="#E0E0DC" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Gold stud earrings -->
+  <circle cx="97" cy="258" r="5" fill="#C9A96E"/>
+  <circle cx="303" cy="258" r="5" fill="#C9A96E"/>
+
+  <!-- Stars/sparkles near smile (clareamento effect) -->
+  <line x1="268" y1="284" x2="280" y2="276" stroke="#C9A96E" stroke-width="1.2" opacity="0.8"/>
+  <line x1="274" y1="290" x2="274" y2="270" stroke="#C9A96E" stroke-width="1.2" opacity="0.6"/>
+  <line x1="262" y1="288" x2="282" y2="288" stroke="#C9A96E" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="274" cy="280" r="2" fill="#C9A96E" opacity="0.9"/>
+
+  <!-- Tag -->
+  <rect x="0" y="460" width="400" height="73" fill="rgba(249,246,241,0.92)"/>
+  <line x1="0" y1="460" x2="400" y2="460" stroke="#C9A96E" stroke-width="1" opacity="0.4"/>
+  <text x="200" y="488" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#B8975A" letter-spacing="3">CLAREAMENTO DENTAL</text>
+  <text x="200" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7B7368">Resultado final · Unic Clinic</text>
+</svg>

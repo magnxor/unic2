@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C1812"/>
+      <stop offset="100%" style="stop-color:#2A2218"/>
+    </linearGradient>
+    <linearGradient id="skin1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0C8A0"/>
+      <stop offset="100%" style="stop-color:#D4956A"/>
+    </linearGradient>
+    <linearGradient id="tooth1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEFEFE"/>
+      <stop offset="100%" style="stop-color:#E8E4DC"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" style="stop-color:#C9A96E;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#C9A96E;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="hair1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3D2A1A"/>
+      <stop offset="100%" style="stop-color:#1A0E06"/>
+    </linearGradient>
+    <linearGradient id="lips1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C87070"/>
+      <stop offset="100%" style="stop-color:#A04848"/>
+    </linearGradient>
+    <filter id="soft1"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="400" height="533" fill="url(#bg1)"/>
+  <rect width="400" height="533" fill="url(#glow1)"/>
+
+  <!-- Subtle grid texture -->
+  <line x1="0" y1="133" x2="400" y2="133" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="266" x2="400" y2="266" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="400" x2="400" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="133" y1="0" x2="133" y2="533" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="266" y1="0" x2="266" y2="533" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Gold frame accent -->
+  <rect x="16" y="16" width="368" height="501" rx="2" fill="none" stroke="#C9A96E" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Face/neck -->
+  <ellipse cx="200" cy="240" rx="110" ry="130" fill="url(#skin1)"/>
+  <!-- Neck -->
+  <rect x="168" y="340" width="64" height="80" rx="32" fill="url(#skin1)"/>
+  <!-- Shoulders -->
+  <path d="M 60 480 Q 100 410 168 390 L 232 390 Q 300 410 340 480 L 340 533 L 60 533 Z" fill="#2A2218"/>
+
+  <!-- Hair -->
+  <ellipse cx="200" cy="148" rx="112" ry="75" fill="url(#hair1)"/>
+  <path d="M 90 200 Q 82 260 86 320" stroke="#1A0E06" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M 310 200 Q 318 260 314 320" stroke="#1A0E06" stroke-width="28" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="170" cy="225" rx="22" ry="13" fill="#0D0806"/>
+  <ellipse cx="230" cy="225" rx="22" ry="13" fill="#0D0806"/>
+  <ellipse cx="170" cy="225" rx="16" ry="9" fill="#2A1A0E"/>
+  <ellipse cx="230" cy="225" rx="16" ry="9" fill="#2A1A0E"/>
+  <circle cx="176" cy="221" r="3.5" fill="white" opacity="0.85"/>
+  <circle cx="236" cy="221" r="3.5" fill="white" opacity="0.85"/>
+  <!-- Eyelashes hint -->
+  <path d="M 148 218 Q 155 210 168 212" stroke="#0D0806" stroke-width="2" fill="none"/>
+  <path d="M 208 212 Q 222 210 235 218" stroke="#0D0806" stroke-width="2" fill="none"/>
+
+  <!-- Eyebrows -->
+  <path d="M 148 207 Q 168 198 188 204" stroke="#2A1A0E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 204 Q 232 198 252 207" stroke="#2A1A0E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M 196 242 Q 190 264 196 274 Q 200 279 204 274 Q 210 264 204 242" fill="none" stroke="#C4906A" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="193" cy="272" rx="8" ry="5" fill="#C4906A" opacity="0.2"/>
+  <ellipse cx="207" cy="272" rx="8" ry="5" fill="#C4906A" opacity="0.2"/>
+
+  <!-- Lips -->
+  <path d="M 162 292 Q 185 283 200 285 Q 215 283 238 292 Q 218 288 200 289 Q 182 288 162 292 Z" fill="#C87070"/>
+  <path d="M 162 292 Q 180 312 200 318 Q 220 312 238 292 Q 220 306 200 308 Q 180 306 162 292 Z" fill="url(#lips1)"/>
+  <!-- Teeth showing (big smile) -->
+  <path d="M 168 294 Q 200 310 232 294 Q 200 302 168 294 Z" fill="#F8F8F6" opacity="0.9"/>
+  <!-- Tooth lines -->
+  <line x1="200" y1="294" x2="200" y2="308" stroke="#E0DCE0" stroke-width="0.8" opacity="0.5"/>
+  <line x1="184" y1="295" x2="183" y2="307" stroke="#E0DCE0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="216" y1="295" x2="217" y2="307" stroke="#E0DCE0" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Earrings -->
+  <circle cx="92" cy="252" r="5" fill="#C9A96E"/>
+  <circle cx="308" cy="252" r="5" fill="#C9A96E"/>
+
+  <!-- Tag: Lentes de Porcelana -->
+  <rect x="0" y="460" width="400" height="73" fill="rgba(23,20,16,0.85)"/>
+  <text x="200" y="488" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#C9A96E" letter-spacing="3">LENTES DE PORCELANA</text>
+  <text x="200" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">Resultado final · Unic Clinic</text>
+
+  <!-- Gold sparkle -->
+  <circle cx="52" cy="52" r="2" fill="#C9A96E" opacity="0.7"/>
+  <circle cx="348" cy="52" r="2" fill="#C9A96E" opacity="0.7"/>
+  <line x1="46" y1="52" x2="58" y2="52" stroke="#C9A96E" stroke-width="0.8" opacity="0.5"/>
+  <line x1="52" y1="46" x2="52" y2="58" stroke="#C9A96E" stroke-width="0.8" opacity="0.5"/>
+  <line x1="342" y1="52" x2="354" y2="52" stroke="#C9A96E" stroke-width="0.8" opacity="0.5"/>
+  <line x1="348" y1="46" x2="348" y2="58" stroke="#C9A96E" stroke-width="0.8" opacity="0.5"/>
+</svg>

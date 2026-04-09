@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F2EDE5"/>
+      <stop offset="100%" style="stop-color:#E5DDD0"/>
+    </linearGradient>
+    <linearGradient id="skin4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8D8B8"/>
+      <stop offset="100%" style="stop-color:#E0B088"/>
+    </linearGradient>
+    <linearGradient id="hair4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A060"/>
+      <stop offset="100%" style="stop-color:#906830"/>
+    </linearGradient>
+    <radialGradient id="blush4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E8A090;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#E8A090;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="tooth4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#EDEBE6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="533" fill="url(#bg4)"/>
+  <!-- Warm tone overlay -->
+  <rect width="400" height="533" fill="rgba(201,169,110,0.06)"/>
+
+  <!-- Gold ornamental lines -->
+  <line x1="200" y1="20" x2="200" y2="60" stroke="#C9A96E" stroke-width="0.8" opacity="0.4"/>
+  <circle cx="200" cy="20" r="3" fill="#C9A96E" opacity="0.5"/>
+  <line x1="20" y1="200" x2="60" y2="200" stroke="#C9A96E" stroke-width="0.8" opacity="0.3"/>
+  <line x1="340" y1="200" x2="380" y2="200" stroke="#C9A96E" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Body/shoulders (elegant outfit) -->
+  <path d="M 10 533 Q 60 445 155 415 L 245 415 Q 340 445 390 533 Z" fill="#2A2218"/>
+  <!-- Outfit neckline -->
+  <path d="M 155 415 Q 200 440 245 415" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Neck (elegant, slender) -->
+  <rect x="176" y="348" width="48" height="75" rx="24" fill="url(#skin4)"/>
+  <!-- Necklace -->
+  <path d="M 160 390 Q 200 408 240 390" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="200" cy="408" r="4" fill="#C9A96E" opacity="0.9"/>
+
+  <!-- Face (oval, harmonized proportions) -->
+  <ellipse cx="200" cy="238" rx="100" ry="118" fill="url(#skin4)"/>
+  <!-- Jaw refined -->
+  <path d="M 100 258 Q 95 305 118 345 Q 155 380 200 385 Q 245 380 282 345 Q 305 305 300 258" fill="url(#skin4)"/>
+
+  <!-- Blush -->
+  <ellipse cx="148" cy="275" rx="28" ry="18" fill="url(#blush4)"/>
+  <ellipse cx="252" cy="275" rx="28" ry="18" fill="url(#blush4)"/>
+
+  <!-- Hair (wavy, golden) -->
+  <ellipse cx="200" cy="148" rx="102" ry="72" fill="url(#hair4)"/>
+  <!-- Wavy hair sides -->
+  <path d="M 98 192 Q 82 240 88 290 Q 92 320 100 345" stroke="#906830" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <path d="M 302 192 Q 318 240 312 290 Q 308 320 300 345" stroke="#906830" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <!-- Wave detail -->
+  <path d="M 85 280 Q 75 295 88 308" stroke="#C8A060" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 315 280 Q 325 295 312 308" stroke="#C8A060" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (almond, defined lashes) -->
+  <ellipse cx="168" cy="224" rx="22" ry="11" fill="#0A0806"/>
+  <ellipse cx="232" cy="224" rx="22" ry="11" fill="#0A0806"/>
+  <ellipse cx="168" cy="224" rx="16" ry="7.5" fill="#2A1A10"/>
+  <ellipse cx="232" cy="224" rx="16" ry="7.5" fill="#2A1A10"/>
+  <circle cx="175" cy="220" r="3.5" fill="white" opacity="0.9"/>
+  <circle cx="239" cy="220" r="3.5" fill="white" opacity="0.9"/>
+  <!-- Lash lines -->
+  <path d="M 146 218 Q 162 209 180 214" stroke="#0A0806" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 220 214 Q 238 209 254 218" stroke="#0A0806" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Upper lash flicks -->
+  <line x1="148" y1="218" x2="143" y2="212" stroke="#0A0806" stroke-width="1.2"/>
+  <line x1="154" y1="215" x2="150" y2="208" stroke="#0A0806" stroke-width="1.2"/>
+  <line x1="250" y1="218" x2="255" y2="212" stroke="#0A0806" stroke-width="1.2"/>
+  <line x1="246" y1="215" x2="250" y2="208" stroke="#0A0806" stroke-width="1.2"/>
+
+  <!-- Eyebrows (arched, groomed) -->
+  <path d="M 144 207 Q 164 196 188 203" stroke="#5A3818" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 212 203 Q 236 196 256 207" stroke="#5A3818" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (refined) -->
+  <path d="M 197 244 Q 192 264 197 274 Q 200 279 203 274 Q 208 264 203 244" fill="none" stroke="#C09068" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- Lips (full, defined - HOF result) -->
+  <!-- Cupid's bow -->
+  <path d="M 160 294 Q 180 285 200 288 Q 220 285 240 294 Q 220 290 200 291 Q 180 290 160 294 Z" fill="#C06868"/>
+  <!-- Lower lip (full) -->
+  <path d="M 160 294 Q 180 318 200 324 Q 220 318 240 294 Q 220 314 200 317 Q 180 314 160 294 Z" fill="#D07878"/>
+  <!-- Lip shine -->
+  <ellipse cx="200" cy="300" rx="20" ry="6" fill="white" opacity="0.2"/>
+  <!-- Teeth (subtle smile) -->
+  <path d="M 168 296 Q 200 308 232 296 Q 200 304 168 296 Z" fill="url(#tooth4)" opacity="0.85"/>
+
+  <!-- Tag -->
+  <rect x="0" y="460" width="400" height="73" fill="rgba(242,237,229,0.95)"/>
+  <line x1="0" y1="460" x2="400" y2="460" stroke="#C9A96E" stroke-width="1" opacity="0.5"/>
+  <text x="200" y="486" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#B8975A" letter-spacing="3">HARMONIZAÇÃO OROFACIAL</text>
+  <text x="200" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7B7368">Resultado final · Unic Clinic</text>
+
+  <!-- Gold sparkles -->
+  <line x1="352" y1="72" x2="364" y2="64" stroke="#C9A96E" stroke-width="1" opacity="0.7"/>
+  <line x1="358" y1="78" x2="358" y2="58" stroke="#C9A96E" stroke-width="1" opacity="0.5"/>
+  <line x1="352" y1="70" x2="372" y2="70" stroke="#C9A96E" stroke-width="1" opacity="0.5"/>
+  <circle cx="358" cy="70" r="2" fill="#C9A96E" opacity="0.8"/>
+</svg>

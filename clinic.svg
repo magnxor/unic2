@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F0E8"/>
+      <stop offset="100%" style="stop-color:#E8E0D0"/>
+    </linearGradient>
+    <linearGradient id="chair-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A2218"/>
+      <stop offset="100%" style="stop-color:#1A1410"/>
+    </linearGradient>
+    <linearGradient id="gold-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C9A96E"/>
+      <stop offset="100%" style="stop-color:#9B7A42"/>
+    </linearGradient>
+    <linearGradient id="light-cone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFF8E7;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8D0C0"/>
+      <stop offset="100%" style="stop-color:#C8C0B0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Room background -->
+  <rect width="600" height="750" fill="url(#wall)"/>
+
+  <!-- Floor -->
+  <path d="M 0 560 L 600 500 L 600 750 L 0 750 Z" fill="url(#floor)"/>
+
+  <!-- Floor tiles subtle lines -->
+  <line x1="0" y1="580" x2="600" y2="525" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="620" x2="600" y2="565" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="660" x2="600" y2="605" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="700" x2="600" y2="645" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="150" y1="500" x2="100" y2="750" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y1="500" x2="260" y2="750" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="450" y1="500" x2="420" y2="750" stroke="#C0B8A8" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Wall accent stripe -->
+  <rect x="0" y="0" width="600" height="8" fill="#C9A96E" opacity="0.4"/>
+  <rect x="0" y="200" width="600" height="1" fill="#C9A96E" opacity="0.2"/>
+
+  <!-- Dental chair base/hydraulic -->
+  <rect x="220" y="520" width="160" height="30" rx="4" fill="#3A3028"/>
+  <rect x="260" y="490" width="80" height="35" rx="3" fill="#2A2218"/>
+
+  <!-- Chair seat -->
+  <path d="M 160 420 Q 160 400 180 395 L 420 395 Q 440 400 440 420 L 440 460 Q 440 480 420 480 L 180 480 Q 160 480 160 460 Z" fill="url(#chair-body)"/>
+
+  <!-- Chair back -->
+  <path d="M 380 200 Q 420 205 430 230 L 440 420 L 380 415 Z" fill="url(#chair-body)"/>
+  <path d="M 380 200 Q 340 195 330 230 L 320 415 L 380 415 Z" fill="#222018"/>
+
+  <!-- Chair headrest -->
+  <rect x="340" y="175" width="80" height="50" rx="15" fill="#2A2218"/>
+
+  <!-- Chair armrests -->
+  <path d="M 160 420 L 130 420 Q 120 420 120 430 L 120 455 Q 120 465 130 465 L 160 460 Z" fill="#2A2218"/>
+  <path d="M 440 420 L 470 420 Q 480 420 480 430 L 480 455 Q 480 465 470 465 L 440 460 Z" fill="#2A2218"/>
+
+  <!-- Chair gold accents -->
+  <path d="M 160 480 L 440 480" stroke="#C9A96E" stroke-width="2" opacity="0.6"/>
+  <path d="M 160 395 L 440 395" stroke="#C9A96E" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Dental lamp arm -->
+  <line x1="490" y1="80" x2="490" y2="200" stroke="#888" stroke-width="8" stroke-linecap="round"/>
+  <line x1="490" y1="200" x2="380" y2="280" stroke="#888" stroke-width="8" stroke-linecap="round"/>
+  <line x1="380" y1="280" x2="320" y2="300" stroke="#888" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Lamp head -->
+  <ellipse cx="300" cy="308" rx="55" ry="22" fill="#DDDDD0"/>
+  <ellipse cx="300" cy="305" rx="50" ry="18" fill="#F0F0E8"/>
+  <!-- Lamp light circles -->
+  <circle cx="288" cy="305" r="7" fill="#FFF8E0" opacity="0.9"/>
+  <circle cx="305" cy="302" r="6" fill="#FFF8E0" opacity="0.9"/>
+  <circle cx="318" cy="307" r="5" fill="#FFF8E0" opacity="0.8"/>
+
+  <!-- Light cone from lamp -->
+  <path d="M 265 320 L 200 480 L 380 480 L 340 320 Z" fill="url(#light-cone)" opacity="0.4"/>
+
+  <!-- Tray/instrument stand -->
+  <rect x="455" y="380" width="80" height="5" rx="2" fill="#C9A96E" opacity="0.8"/>
+  <rect x="490" y="385" width="10" height="140" fill="#888"/>
+  <rect x="475" y="520" width="40" height="5" rx="2" fill="#888"/>
+
+  <!-- Instruments on tray -->
+  <line x1="462" y1="375" x2="462" y2="382" stroke="#aaa" stroke-width="2"/>
+  <line x1="472" y1="374" x2="472" y2="382" stroke="#aaa" stroke-width="2"/>
+  <line x1="482" y1="373" x2="482" y2="382" stroke="#aaa" stroke-width="2"/>
+  <line x1="492" y1="374" x2="492" y2="382" stroke="#aaa" stroke-width="2"/>
+  <line x1="502" y1="375" x2="502" y2="382" stroke="#aaa" stroke-width="2"/>
+  <line x1="512" y1="376" x2="512" y2="382" stroke="#aaa" stroke-width="2"/>
+  <line x1="522" y1="375" x2="522" y2="382" stroke="#aaa" stroke-width="2"/>
+
+  <!-- Monitor/screen on wall -->
+  <rect x="30" y="220" width="140" height="100" rx="4" fill="#1A1410"/>
+  <rect x="34" y="224" width="132" height="88" rx="2" fill="#0D1117"/>
+  <!-- Screen content simulation -->
+  <rect x="40" y="240" width="60" height="40" rx="2" fill="#1A2A1A" opacity="0.8"/>
+  <rect x="108" y="240" width="52" height="18" rx="1" fill="#1A1A2A" opacity="0.8"/>
+  <rect x="108" y="264" width="52" height="18" rx="1" fill="#1A1A2A" opacity="0.8"/>
+  <line x1="40" y1="290" x2="90" y2="290" stroke="#C9A96E" stroke-width="1" opacity="0.6"/>
+  <line x1="40" y1="296" x2="75" y2="296" stroke="#C9A96E" stroke-width="1" opacity="0.4"/>
+  <line x1="40" y1="302" x2="82" y2="302" stroke="#C9A96E" stroke-width="1" opacity="0.4"/>
+  <!-- Monitor stand -->
+  <rect x="92" y="320" width="16" height="20" fill="#2A2218"/>
+  <rect x="80" y="338" width="40" height="5" rx="2" fill="#2A2218"/>
+
+  <!-- Window/light panel -->
+  <rect x="30" y="30" width="200" height="160" rx="3" fill="#FFF8E7" opacity="0.15"/>
+  <rect x="32" y="32" width="196" height="156" rx="2" fill="none" stroke="#C9A96E" stroke-width="1" opacity="0.3"/>
+  <!-- Window mullion -->
+  <line x1="130" y1="32" x2="130" y2="188" stroke="#C9A96E" stroke-width="0.8" opacity="0.3"/>
+  <line x1="32" y1="110" x2="228" y2="110" stroke="#C9A96E" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Gold decorative element wall -->
+  <text x="300" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#C9A96E" opacity="0.35" letter-spacing="8">UNIC CLINIC</text>
+  <line x1="180" y1="165" x2="240" y2="165" stroke="#C9A96E" stroke-width="0.5" opacity="0.3"/>
+  <line x1="360" y1="165" x2="420" y2="165" stroke="#C9A96E" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Subtle corner detail -->
+  <path d="M 550 30 L 580 30 M 580 30 L 580 60" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M 20 30 L 50 30 M 20 30 L 20 60" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.4"/>
+</svg>

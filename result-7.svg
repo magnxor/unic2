@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#141010"/>
+      <stop offset="100%" style="stop-color:#201A14"/>
+    </linearGradient>
+    <linearGradient id="skin7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C88850"/>
+      <stop offset="100%" style="stop-color:#A06030"/>
+    </linearGradient>
+    <linearGradient id="hair7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A1808"/>
+      <stop offset="100%" style="stop-color:#100A04"/>
+    </linearGradient>
+    <linearGradient id="tooth7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#EAE8E2"/>
+    </linearGradient>
+    <radialGradient id="glow7" cx="50%" cy="36%" r="50%">
+      <stop offset="0%" style="stop-color:#C9A96E;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#C9A96E;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="533" fill="url(#bg7)"/>
+  <rect width="400" height="533" fill="url(#glow7)"/>
+
+  <!-- Circle frame -->
+  <circle cx="200" cy="235" r="178" fill="none" stroke="#C9A96E" stroke-width="0.4" opacity="0.25"/>
+  <circle cx="200" cy="235" r="165" fill="none" stroke="#C9A96E" stroke-width="0.3" opacity="0.12"/>
+
+  <!-- Body (elegant outfit) -->
+  <path d="M 10 533 Q 62 445 152 415 L 248 415 Q 338 445 390 533 Z" fill="#1A1410"/>
+  <!-- Décolleté -->
+  <path d="M 162 415 Q 200 448 238 415" fill="none" stroke="#C9A96E" stroke-width="1" opacity="0.35"/>
+
+  <!-- Neck -->
+  <rect x="175" y="348" width="50" height="76" rx="25" fill="url(#skin7)"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="238" rx="108" ry="124" fill="url(#skin7)"/>
+
+  <!-- Hair (textured natural afro/curly) -->
+  <ellipse cx="200" cy="132" rx="122" ry="82" fill="url(#hair7)"/>
+  <!-- Curly texture overlays -->
+  <ellipse cx="152" cy="118" rx="32" ry="28" fill="#1A0E08"/>
+  <ellipse cx="180" cy="106" rx="30" ry="26" fill="#200E08"/>
+  <ellipse cx="210" cy="102" rx="32" ry="26" fill="#1A0E08"/>
+  <ellipse cx="240" cy="108" rx="30" ry="26" fill="#200E08"/>
+  <ellipse cx="262" cy="120" rx="28" ry="24" fill="#1A0E08"/>
+  <ellipse cx="145" cy="142" rx="28" ry="22" fill="#200E08"/>
+  <ellipse cx="255" cy="142" rx="28" ry="22" fill="#1A0E08"/>
+  <!-- Hair sides fullness -->
+  <path d="M 78 185 Q 66 228 72 285" stroke="#100A04" stroke-width="38" fill="none" stroke-linecap="round"/>
+  <path d="M 322 185 Q 334 228 328 285" stroke="#100A04" stroke-width="38" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (almond, expressive) -->
+  <ellipse cx="165" cy="228" rx="23" ry="12" fill="#080604"/>
+  <ellipse cx="235" cy="228" rx="23" ry="12" fill="#080604"/>
+  <ellipse cx="165" cy="228" rx="17" ry="8" fill="#1A1008"/>
+  <ellipse cx="235" cy="228" rx="17" ry="8" fill="#1A1008"/>
+  <circle cx="172" cy="223" r="4" fill="white" opacity="0.9"/>
+  <circle cx="242" cy="223" r="4" fill="white" opacity="0.9"/>
+  <circle cx="170" cy="228" r="1.8" fill="white" opacity="0.45"/>
+  <circle cx="240" cy="228" r="1.8" fill="white" opacity="0.45"/>
+
+  <!-- Eyeshadow hint -->
+  <ellipse cx="165" cy="218" rx="23" ry="7" fill="rgba(60,20,10,0.3)"/>
+  <ellipse cx="235" cy="218" rx="23" ry="7" fill="rgba(60,20,10,0.3)"/>
+
+  <!-- Lash lines -->
+  <path d="M 141 221 Q 163 210 185 218" stroke="#080604" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 215 218 Q 237 210 259 221" stroke="#080604" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <line x1="143" y1="221" x2="137" y2="213" stroke="#080604" stroke-width="1.5"/>
+  <line x1="149" y1="217" x2="144" y2="209" stroke="#080604" stroke-width="1.5"/>
+  <line x1="256" y1="221" x2="262" y2="213" stroke="#080604" stroke-width="1.5"/>
+  <line x1="251" y1="217" x2="256" y2="209" stroke="#080604" stroke-width="1.5"/>
+
+  <!-- Eyebrows (defined) -->
+  <path d="M 140 208 Q 162 197 186 205" stroke="#1A0E08" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 214 205 Q 238 197 260 208" stroke="#1A0E08" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (broad, beautiful) -->
+  <path d="M 196 248 Q 189 268 195 279 Q 200 285 205 279 Q 211 268 204 248" fill="none" stroke="#804020" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="191" cy="277" rx="11" ry="7" fill="#804020" opacity="0.2"/>
+  <ellipse cx="209" cy="277" rx="11" ry="7" fill="#804020" opacity="0.2"/>
+
+  <!-- Full beautiful smile (lentes de resina) -->
+  <path d="M 150 299 Q 200 332 250 299" fill="none"/>
+  <!-- Upper lip (fuller) -->
+  <path d="M 150 299 Q 175 287 200 290 Q 225 287 250 299 Q 226 295 200 296 Q 174 295 150 299 Z" fill="#8A4040"/>
+  <!-- Lower lip -->
+  <path d="M 150 299 Q 175 328 200 336 Q 225 328 250 299 Q 225 324 200 327 Q 175 324 150 299 Z" fill="#A05050"/>
+  <!-- Lip shine -->
+  <ellipse cx="200" cy="305" rx="26" ry="8" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Lentes de resina teeth -->
+  <path d="M 160 302 Q 200 315 240 302" fill="url(#tooth7)" opacity="0.95"/>
+  <rect x="160" y="301" width="80" height="18" rx="2" fill="url(#tooth7)" opacity="0.9"/>
+  <!-- Shine highlight -->
+  <path d="M 165 303 Q 200 309 235 303" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Dividers -->
+  <line x1="200" y1="301" x2="200" y2="317" stroke="#E0E0DC" stroke-width="0.8" opacity="0.5"/>
+  <line x1="183" y1="302" x2="183" y2="317" stroke="#E0E0DC" stroke-width="0.7" opacity="0.4"/>
+  <line x1="217" y1="302" x2="217" y2="317" stroke="#E0E0DC" stroke-width="0.7" opacity="0.4"/>
+  <line x1="167" y1="304" x2="167" y2="316" stroke="#E0E0DC" stroke-width="0.7" opacity="0.35"/>
+  <line x1="233" y1="304" x2="233" y2="316" stroke="#E0E0DC" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- Hoop earrings -->
+  <circle cx="90" cy="256" r="12" fill="none" stroke="#C9A96E" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="310" cy="256" r="12" fill="none" stroke="#C9A96E" stroke-width="2.5" opacity="0.9"/>
+
+  <!-- Tag -->
+  <rect x="0" y="460" width="400" height="73" fill="rgba(14,10,10,0.92)"/>
+  <line x1="0" y1="460" x2="400" y2="460" stroke="#C9A96E" stroke-width="0.8" opacity="0.35"/>
+  <text x="200" y="488" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#C9A96E" letter-spacing="3">LENTES DE RESINA</text>
+  <text x="200" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">Resultado final · Unic Clinic</text>
+
+  <!-- Gold corner ornaments -->
+  <path d="M 24 24 L 50 24 M 24 24 L 24 50" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.45"/>
+  <path d="M 376 24 L 350 24 M 376 24 L 376 50" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.45"/>
+</svg>

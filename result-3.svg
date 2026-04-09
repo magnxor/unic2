@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0C0A"/>
+      <stop offset="100%" style="stop-color:#1A1612"/>
+    </linearGradient>
+    <linearGradient id="skin3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C098"/>
+      <stop offset="100%" style="stop-color:#C8906A"/>
+    </linearGradient>
+    <linearGradient id="hair3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6A40"/>
+      <stop offset="100%" style="stop-color:#5A3E20"/>
+    </linearGradient>
+    <linearGradient id="tooth3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#EAE8E2"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" style="stop-color:#C9A96E;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#C9A96E;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="533" fill="url(#bg3)"/>
+  <rect width="400" height="533" fill="url(#glow3)"/>
+
+  <!-- Decorative circle -->
+  <circle cx="200" cy="230" r="175" fill="none" stroke="#C9A96E" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Shoulders -->
+  <path d="M 20 533 Q 70 450 155 420 L 245 420 Q 330 450 380 533 Z" fill="#2A2218"/>
+
+  <!-- Neck -->
+  <rect x="173" y="345" width="54" height="85" rx="27" fill="url(#skin3)"/>
+
+  <!-- Face (masculine, jaw more defined) -->
+  <ellipse cx="200" cy="240" rx="108" ry="118" fill="url(#skin3)"/>
+  <!-- Jaw definition -->
+  <path d="M 92 260 Q 88 310 110 350 Q 150 385 200 390 Q 250 385 290 350 Q 312 310 308 260" fill="url(#skin3)"/>
+
+  <!-- Hair (short, swept) -->
+  <ellipse cx="200" cy="148" rx="108" ry="62" fill="url(#hair3)"/>
+  <!-- Side part -->
+  <path d="M 92 180 Q 95 200 98 230" stroke="#4A3018" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M 308 180 Q 305 200 302 230" stroke="#4A3018" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+  <!-- Subtle beard/stubble -->
+  <ellipse cx="200" cy="358" rx="78" ry="30" fill="#8B6A40" opacity="0.2"/>
+  <ellipse cx="160" cy="345" rx="32" ry="20" fill="#8B6A40" opacity="0.15"/>
+  <ellipse cx="240" cy="345" rx="32" ry="20" fill="#8B6A40" opacity="0.15"/>
+
+  <!-- Eyes (male) -->
+  <ellipse cx="167" cy="228" rx="21" ry="11" fill="#0A0806"/>
+  <ellipse cx="233" cy="228" rx="21" ry="11" fill="#0A0806"/>
+  <ellipse cx="167" cy="228" rx="15" ry="7" fill="#2A1A0E"/>
+  <ellipse cx="233" cy="228" rx="15" ry="7" fill="#2A1A0E"/>
+  <circle cx="173" cy="224" r="3" fill="white" opacity="0.85"/>
+  <circle cx="239" cy="224" r="3" fill="white" opacity="0.85"/>
+
+  <!-- Brows (thicker, straighter) -->
+  <path d="M 144 211 Q 164 205 188 210" stroke="#4A3018" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 210 Q 236 205 256 211" stroke="#4A3018" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (straighter) -->
+  <path d="M 197 246 Q 192 270 197 282 Q 200 287 203 282 Q 208 270 203 246" fill="none" stroke="#B07848" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="194" cy="280" rx="8" ry="5" fill="#B07848" opacity="0.2"/>
+  <ellipse cx="206" cy="280" rx="8" ry="5" fill="#B07848" opacity="0.2"/>
+
+  <!-- Confident wide smile -->
+  <path d="M 155 308 Q 200 336 245 308" fill="none" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>
+  <path d="M 155 308 Q 177 300 200 302 Q 223 300 245 308 Q 223 305 200 306 Q 177 305 155 308 Z" fill="#904040"/>
+  <path d="M 155 308 Q 177 330 200 337 Q 223 330 245 308 Q 223 326 200 329 Q 177 326 155 308 Z" fill="#B05050"/>
+  <!-- Full teeth -->
+  <path d="M 162 310 Q 200 322 238 310" fill="url(#tooth3)" opacity="0.95"/>
+  <rect x="162" y="309" width="76" height="16" rx="2" fill="url(#tooth3)" opacity="0.9"/>
+  <!-- Tooth shine -->
+  <path d="M 168 311 Q 200 315 232 311" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- Dividers -->
+  <line x1="200" y1="309" x2="200" y2="323" stroke="#DCDCD8" stroke-width="1" opacity="0.5"/>
+  <line x1="183" y1="310" x2="183" y2="323" stroke="#DCDCD8" stroke-width="0.8" opacity="0.4"/>
+  <line x1="217" y1="310" x2="217" y2="323" stroke="#DCDCD8" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Tag -->
+  <rect x="0" y="460" width="400" height="73" fill="rgba(14,12,10,0.9)"/>
+  <line x1="0" y1="460" x2="400" y2="460" stroke="#C9A96E" stroke-width="1" opacity="0.3"/>
+  <text x="200" y="488" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#C9A96E" letter-spacing="3">IMPLANTE DENTÁRIO</text>
+  <text x="200" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">Resultado final · Unic Clinic</text>
+
+  <!-- Gold corner ornaments -->
+  <path d="M 28 28 L 52 28 M 28 28 L 28 52" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M 372 28 L 348 28 M 372 28 L 372 52" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0EBE2"/>
+      <stop offset="100%" style="stop-color:#E2D8CC"/>
+    </linearGradient>
+    <linearGradient id="skin6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5DFB8"/>
+      <stop offset="100%" style="stop-color:#D8A870"/>
+    </linearGradient>
+    <linearGradient id="hair6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5A3820"/>
+      <stop offset="100%" style="stop-color:#3A2010"/>
+    </linearGradient>
+    <linearGradient id="tooth6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEFEFE"/>
+      <stop offset="100%" style="stop-color:#ECEBE6"/>
+    </linearGradient>
+    <radialGradient id="blush6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E89090;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#E89090;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="533" fill="url(#bg6)"/>
+  <rect width="400" height="533" fill="rgba(201,169,110,0.05)"/>
+
+  <!-- Thin gold frame -->
+  <rect x="18" y="18" width="364" height="497" rx="2" fill="none" stroke="#C9A96E" stroke-width="0.6" opacity="0.35"/>
+
+  <!-- Body (casual look - younger patient) -->
+  <path d="M 15 533 Q 65 452 152 422 L 248 422 Q 335 452 385 533 Z" fill="#3A4A5A"/>
+  <!-- Shirt collar hint -->
+  <path d="M 175 422 L 200 445 L 225 422" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+
+  <!-- Neck -->
+  <rect x="176" y="352" width="48" height="78" rx="24" fill="url(#skin6)"/>
+
+  <!-- Face (younger, rounder) -->
+  <ellipse cx="200" cy="242" rx="105" ry="122" fill="url(#skin6)"/>
+  <!-- Jaw (softer) -->
+  <path d="M 95 258 Q 90 308 115 348 Q 155 385 200 390 Q 245 385 285 348 Q 310 308 305 258" fill="url(#skin6)"/>
+
+  <!-- Blush -->
+  <ellipse cx="148" cy="278" rx="26" ry="18" fill="url(#blush6)"/>
+  <ellipse cx="252" cy="278" rx="26" ry="18" fill="url(#blush6)"/>
+
+  <!-- Hair (tied back / ponytail look) -->
+  <ellipse cx="200" cy="146" rx="106" ry="68" fill="url(#hair6)"/>
+  <!-- Shorter sides showing ears better -->
+  <path d="M 94 188 Q 86 228 90 278" stroke="#3A2010" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M 306 188 Q 314 228 310 278" stroke="#3A2010" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <!-- Ponytail/bun hint at top -->
+  <ellipse cx="200" cy="115" rx="42" ry="28" fill="#3A2010"/>
+  <circle cx="200" cy="106" r="20" fill="#4A2818"/>
+
+  <!-- Ears (visible) -->
+  <ellipse cx="96" cy="252" rx="12" ry="16" fill="url(#skin6)"/>
+  <ellipse cx="304" cy="252" rx="12" ry="16" fill="url(#skin6)"/>
+  <ellipse cx="96" cy="252" rx="7" ry="10" fill="#D09868" opacity="0.4"/>
+  <ellipse cx="304" cy="252" rx="7" ry="10" fill="#D09868" opacity="0.4"/>
+
+  <!-- Simple stud earrings -->
+  <circle cx="96" cy="248" r="4" fill="#C9A96E"/>
+  <circle cx="304" cy="248" r="4" fill="#C9A96E"/>
+
+  <!-- Eyes (bright, youthful) -->
+  <ellipse cx="168" cy="226" rx="22" ry="12" fill="#0A0806"/>
+  <ellipse cx="232" cy="226" rx="22" ry="12" fill="#0A0806"/>
+  <ellipse cx="168" cy="226" rx="16" ry="8" fill="#2A1A10"/>
+  <ellipse cx="232" cy="226" rx="16" ry="8" fill="#2A1A10"/>
+  <circle cx="175" cy="222" r="4" fill="white" opacity="0.9"/>
+  <circle cx="239" cy="222" r="4" fill="white" opacity="0.9"/>
+  <circle cx="174" cy="226" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="238" cy="226" r="1.5" fill="white" opacity="0.5"/>
+
+  <!-- Eyebrows (natural, lighter) -->
+  <path d="M 145 208 Q 164 200 187 206" stroke="#5A3820" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 213 206 Q 236 200 255 208" stroke="#5A3820" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Lash lines (simple) -->
+  <path d="M 146 218 Q 165 210 186 215" stroke="#0A0806" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 214 215 Q 235 210 254 218" stroke="#0A0806" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (button nose) -->
+  <path d="M 197 244 Q 192 262 197 272 Q 200 277 203 272 Q 208 262 203 244" fill="none" stroke="#C09060" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="194" cy="270" rx="7" ry="4.5" fill="#C09060" opacity="0.2"/>
+  <ellipse cx="206" cy="270" rx="7" ry="4.5" fill="#C09060" opacity="0.2"/>
+
+  <!-- Big happy smile (orthodontic result) -->
+  <path d="M 153 298 Q 200 330 247 298" fill="none" stroke="rgba(0,0,0,0.2)" stroke-width="1"/>
+  <!-- Lips -->
+  <path d="M 153 298 Q 178 289 200 291 Q 222 289 247 298 Q 224 294 200 295 Q 176 294 153 298 Z" fill="#B06868"/>
+  <path d="M 153 298 Q 176 326 200 333 Q 224 326 247 298 Q 225 320 200 323 Q 175 320 153 298 Z" fill="#C07878"/>
+  <!-- Wide teeth (aligned - orthodontic result) -->
+  <path d="M 162 301 Q 200 314 238 301" fill="url(#tooth6)" opacity="0.95"/>
+  <rect x="162" y="300" width="76" height="16" rx="2" fill="url(#tooth6)" opacity="0.9"/>
+  <!-- Shine row -->
+  <path d="M 168 302 Q 200 307 232 302" stroke="white" stroke-width="1.8" fill="none" opacity="0.65"/>
+  <!-- Aligned tooth dividers -->
+  <line x1="200" y1="300" x2="200" y2="315" stroke="#DCDCD8" stroke-width="0.8" opacity="0.5"/>
+  <line x1="185" y1="301" x2="185" y2="315" stroke="#DCDCD8" stroke-width="0.7" opacity="0.4"/>
+  <line x1="215" y1="301" x2="215" y2="315" stroke="#DCDCD8" stroke-width="0.7" opacity="0.4"/>
+  <line x1="170" y1="303" x2="170" y2="314" stroke="#DCDCD8" stroke-width="0.7" opacity="0.35"/>
+  <line x1="230" y1="303" x2="230" y2="314" stroke="#DCDCD8" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- Tag -->
+  <rect x="0" y="460" width="400" height="73" fill="rgba(240,235,226,0.95)"/>
+  <line x1="0" y1="460" x2="400" y2="460" stroke="#C9A96E" stroke-width="1" opacity="0.45"/>
+  <text x="200" y="486" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#B8975A" letter-spacing="3">ORTODONTIA / INVISALIGN®</text>
+  <text x="200" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7B7368">Resultado final · Unic Clinic</text>
+
+  <!-- Sparkle corner -->
+  <path d="M 28 28 L 52 28 M 28 28 L 28 52" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M 372 28 L 348 28 M 372 28 L 372 52" stroke="#C9A96E" stroke-width="1" fill="none" opacity="0.4"/>
+</svg>
